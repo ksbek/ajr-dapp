@@ -3,13 +3,14 @@ import Footer from "./layouts/Footer";
 import Header from "./layouts/Header";
 import LandingPage from './pages/LandingPage';
 import Roadmap from "./pages/Roadmap";
+import MaintenancePage from './pages/MaintenancePage';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<MaintenancePage />} />
       </Routes>
       <Footer></Footer>
     </div>
