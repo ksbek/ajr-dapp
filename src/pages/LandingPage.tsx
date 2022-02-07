@@ -6,15 +6,11 @@ import snake from '../assets/images/snake.png'
 const LandingPage = () => {
   return (
     <React.Fragment>
-      <div className="row landing-page page">
-        <div className="col-sm-6 white-bg text-center">
-          <img src={snake} className="snake" />
-          <img src={LogoBlack} />
-          <div className="mt-2">Luxury Brand</div>
-        </div>
-        <div className="col-sm-6 black-bg text-center">
-          <img src={LogoWhite} />
-          <div className="mt-2">One Brand One Dream</div>
+      <div className="row landing-page">
+        <div className="col-sm-12 text-center">
+          <img className="mt-5" src={LogoWhite} />
+          <div className="mt-2 text-red mt-5 pt-5">Metaverse - Net - Luxury - Lifestyle - Fashion</div>
+          <div className="mt-4">Presale AJR Token</div>
         </div>
       </div>
     </React.Fragment>

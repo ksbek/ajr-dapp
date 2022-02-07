@@ -10,9 +10,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<MaintenancePage />} />
+        <Route path="/" element={<LandingPage />} />
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }

@@ -1,7 +1,42 @@
 @import "~bootstrap/scss/bootstrap";
 
+@font-face {
+  font-family: rexlia;
+  src: url(./assets/fonts/rexlia.otf);
+}
+
 body {
   font-size: 18px;
+}
+
+.App {
+  background-image: url("./assets/images/back.png");
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: rexlia;
+  color: white;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+  font-size: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: unset;
+  text-transform: uppercase;
+  -webkit-text-fill-color: black;
+}
+
+.text-red {
+  -webkit-text-stroke-color: rgb(97 ,8, 26);
+}
+
+.landing-page {
+  min-height: calc(100vh - 108px);
+  align-items: center;
 }
 
 .row {
@@ -67,18 +102,6 @@ img.snake {
   top: -70px;
 }
 
-.header {
-  & > div {
-    z-index: 1;
-  }
-  a {
-    color: inherit;
-    font-size: 30px;
-    text-decoration: unset;
-    text-transform: uppercase;
-  }
-}
-
 .footer {
   font-weight: bold;
   .white-bg {
@@ -109,10 +132,8 @@ img.snake {
 }
 
 @media only screen and (max-width: 720px) {
-  .header {
-    a {
-      font-size: 18px;
-    }
+  .App {
+    font-size: 18px;
   }
   .page {
     height: calc(100vh -138px);

@@ -4,13 +4,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return <React.Fragment>
     <div className="row header text-center">
-      <div className="col-6 white-bg d-flex justify-content-around pt-2 align-items-center">
-        <a href="https://forms.gle/YhoSVNM5so6b2ZfZA" target="_blank">Presale<br /> WhiteList</a>
-        <a href="/AJR_WHITEPAPER OFFICIAL.pdf" target="_blank">Whitepaper</a>
-      </div>
-      <div className="col-6 black-bg d-flex justify-content-around pt-2 align-items-center">
-        <a href="/AJR ROADMAP.pdf" target="_blank">Roadmap</a>
-        <Link to="#"><span className="text-line-through">AJR Stone</span><br />(SOON)</Link>
+      <div className="col-12 d-flex justify-content-around pt-5 align-items-center">
+        <a href="" target="_blank">Project</a>
+        <a href="" target="_blank">Shop</a>
+        <a href="" target="_blank">Social</a>
+        <Link to="#">Team</Link>
       </div>
     </div>
   </React.Fragment>
