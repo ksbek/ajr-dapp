@@ -54,10 +54,10 @@ const LandingPage = () => {
               <a href="https://t.me/ajrtoken" target="_blank">
                 <img src={TelegramSVG} />
               </a>
-              <a href="#" target="_blank">
+              <a href="mailto:ajrtoken@gmail.com" target="_blank">
                 <img src={GmailSVG} />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://www.reddit.com/user/AJRTOKEN" target="_blank">
                 <img src={RedditSVG} />
               </a>
             </div>
