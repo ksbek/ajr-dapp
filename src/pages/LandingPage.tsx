@@ -30,7 +30,7 @@ const LandingPage = () => {
                   <Link to="/project">Project</Link>
                 </div>
                 <div>
-                  <a href="" target="_blank">
+                  <a href="https://linktr.ee/AJR_Official" target="_blank">
                     Social
                   </a>
                 </div>
